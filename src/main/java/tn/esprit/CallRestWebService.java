@@ -24,6 +24,7 @@ public class CallRestWebService {
 	//checking branch
 	public static final String endpoint = "http://ip-api.com/json";
 	//public static final String endpoint = "https://httpbin.org/get";
+	//verifying token auth push
 	public static void main(String[] args) {
 		HttpClient client = new DefaultHttpClient();
 		HttpGet request = new HttpGet(endpoint);
